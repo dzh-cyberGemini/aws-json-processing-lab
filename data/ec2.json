@@ -1,0 +1,121 @@
+{
+  "Reservations": [
+    {
+      "ReservationId": "r-001",
+      "Instances": [
+        {
+          "InstanceId": "i-001",
+          "InstanceType": "t3.medium",
+          "State": {
+            "Name": "running"
+          },
+          "LaunchTime": "2026-09-20T08:10:00Z",
+          "Tags": [
+            {
+              "Key": "Name",
+              "Value": "web-01"
+            },
+            {
+              "Key": "Environment",
+              "Value": "production"
+            },
+            {
+              "Key": "Owner",
+              "Value": "platform"
+            }
+          ]
+        },
+        {
+          "InstanceId": "i-002",
+          "InstanceType": "t3.micro",
+          "State": {
+            "Name": "stopped"
+          },
+          "LaunchTime": "2026-09-18T11:20:00Z",
+          "Tags": [
+            {
+              "Key": "Name",
+              "Value": "dev-01"
+            },
+            {
+              "Key": "Environment",
+              "Value": "development"
+            },
+            {
+              "Key": "Owner",
+              "Value": "engineering"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ReservationId": "r-002",
+      "Instances": [
+        {
+          "InstanceId": "i-003",
+          "InstanceType": "m5.large",
+          "State": {
+            "Name": "running"
+          },
+          "LaunchTime": "2026-09-22T14:00:00Z",
+          "Tags": [
+            {
+              "Key": "Name",
+              "Value": "api-01"
+            },
+            {
+              "Key": "Environment",
+              "Value": "production"
+            },
+            {
+              "Key": "Owner",
+              "Value": "backend"
+            }
+          ]
+        },
+        {
+          "InstanceId": "i-004",
+          "InstanceType": "t3.medium",
+          "State": {
+            "Name": "running"
+          },
+          "LaunchTime": "2026-09-24T07:30:00Z",
+          "Tags": [
+            {
+              "Key": "Name",
+              "Value": "stage-01"
+            },
+            {
+              "Key": "Environment",
+              "Value": "staging"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ReservationId": "r-003",
+      "Instances": [
+        {
+          "InstanceId": "i-005",
+          "InstanceType": "t3.micro",
+          "State": {
+            "Name": "running"
+          },
+          "LaunchTime": "2026-09-25T10:00:00Z",
+          "Tags": [
+            {
+              "Key": "Name",
+              "Value": "worker-01"
+            },
+            {
+              "Key": "Owner",
+              "Value": "platform"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
